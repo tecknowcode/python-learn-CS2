@@ -23,11 +23,11 @@ def main():
     number = getNumber()
     result = getFactorial(number)
     print(f"factorial of {number} is {result}")
-    # for num in range(1,upper_limit+1):
-    #     if checkOddEven(num) % 2 :
-    #         print("{} - odd.".format(num))
-    #     else:
-    #         print(f"{num} - even.")
+    for num in range(1,upper_limit+1):
+        if checkOddEven(num) % 2 :
+            print("{} - odd.".format(num))
+        else:
+            print(f"{num} - even.")
 
 if __name__ == "__main__":
     main()
